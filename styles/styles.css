@@ -222,6 +222,21 @@ main {
   font-weight: 500;
   margin-top: 20px;
 }
+/* footer section */
+footer {
+  max-width: 1300px;
+  margin: 130px auto;
+}
+.footer-description {
+  color: #424242;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.footer {
+  border-radius: 8px;
+  background: #fff4e7;
+  padding: 39px 350px;
+}
 /* responsive styles for mobile */
 
 @media screen and (max-width: 576px) {
@@ -284,6 +299,14 @@ main {
   .sponsors-container {
     padding: 20px;
   }
+  /* footer */
+  .footer {
+    padding: 20px;
+    font-size: 16px;
+  }
+  footer {
+    margin: 20px;
+  }
 }
 /* responsive styles for tablet */
 @media screen and (min-width: 576px) and (max-width: 960px) {
@@ -328,5 +351,12 @@ main {
   }
   .sponsor-content {
     margin-top: 50px;
+  }
+  /* footer */
+  footer {
+    margin: 50px;
+  }
+  .footer {
+    padding: 30px 150px;
   }
 }
