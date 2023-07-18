@@ -159,14 +159,22 @@ main {
     font-size: 2rem;
   }
   /* team section */
-  .team-container {
+  .team-container,
+  .facts-card-container {
     flex-direction: column;
   }
   .team-images {
     grid-template-columns: 1fr;
   }
   .team-content {
-    padding: 10px;
+    padding: 20px;
+  }
+  /* facts section */
+  .facts-container {
+    padding: 20px;
+  }
+  .facts-card-container {
+    gap: 10px;
   }
 }
 /* responsive styles for tablet */
@@ -184,5 +192,13 @@ main {
   }
   .team-content {
     padding: 20px;
+  }
+
+  /*  facts section*/
+  .facts-container {
+    padding: 50px;
+  }
+  .card {
+    padding: 30px 20px;
   }
 }
