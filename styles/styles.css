@@ -4,3 +4,48 @@
   font-family: "Work Sans", sans-serif;
   margin: 0px;
 }
+/* header styles */
+header {
+  background: rgba(255, 144, 14, 0.1);
+  padding: 50px 240px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav > ul {
+  display: flex;
+  list-style: none;
+}
+nav li {
+  margin-right: 50px;
+  text-align: center;
+  font-weight: 500;
+}
+nav li a {
+  text-decoration: none;
+  color: #424242;
+}
+nav > h3 {
+  color: #131313;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+/* banner section */
+.banner-content {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+.banner-title {
+  color: #131313;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.banner-description {
+  color: #727272;
+  font-weight: 400;
+  line-height: 1.6rem;
+}
