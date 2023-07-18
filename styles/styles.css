@@ -4,6 +4,10 @@
   font-family: "Work Sans", sans-serif;
   margin: 0px;
 }
+html,
+body {
+  overflow-x: hidden;
+}
 /* header styles */
 header {
   background: rgba(255, 144, 14, 0.1);
@@ -58,8 +62,41 @@ nav > h3 {
   border: none;
   font-size: 1.2rem;
   color: white;
+  font-weight: 600;
 }
 .banner img {
   width: 100%;
   margin-top: 50px;
+}
+/* responsive styles for mobile */
+
+@media screen and (max-width: 576px) {
+  /* for banner */
+  header {
+    padding: 20px;
+  }
+  nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .banner-title {
+    font-size: 2rem;
+  }
+  .primarybtn {
+    padding: 12px 15px;
+    font-size: 16px;
+  }
+  .banner img {
+    /* margin-left: 0px; */
+  }
+}
+/* responsive styles for tablet */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  header {
+    padding: 50px;
+  }
+  nav {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
